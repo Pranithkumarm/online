@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 25%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+
+    color: rgb(122, 117, 117);
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 0px;
+    font-size: 17px;
+    border:2px solid black;
+    border-radius: 3px;
+}
+.background{
+    background:rgb(0, 0, 0,0.7)url('../img/snap (9).jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+max-width: 65%;
+margin: auto;
+height: 80%;
+
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf{
+    width: 30%;
+
+}
+.secondHalf img{
+    width: 70%;
+   border: 4px solid white;
+   border-radius: 150px;
+   display: block;
+   margin: auto;
+
+}
+.text-big{
+font-size: 40px;
+}
+.text-small{
+    font-size: 13px;
+   
+
+}
+.btn{
+    padding: 4px 13px;
+    margin: 7px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align:middle;
+}
+.btn-dark{
+    color: rgba(139, 133, 133, 0.911);
+    border: 2px solid rgb(117, 115, 115);
+}
+
+.paras{
+    padding: 0 65px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 80%;
+    padding: 12px;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.sectionTag{
+    padding: 16px;
+}
+.sectionSubTag{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thumbnail img{
+    height: 230px;
+    width: 300px;
+    border: 2px solid  black;
+    border-radius: 26px;
+   /* margin-top:19px ;*/
+}
+.contact{
+    font-size: 25px;
+    padding: 30px;
+    height: 80vh;
+    background:rgb(0, 0, 0,0.7)url('../img/snap (1).jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.text-center{
+    text-align: center;
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.form{
+    max-width: 62%;
+    margin: 25px  auto;
+    
+}
+.form-input{
+    font-family: sans-serif;
+    margin: 20px 9px;
+    width: 100%;
+    height: 50%;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.text-footer{
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+/* Style all font awesome icons */
+.social-icon{
+    background-color:white;
+    position:sticky;
+    border: 2px solid black;
+    text-align: center;
+}
+.fa {
+    display: flex;
+    padding: 15px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size:2em;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram{
+    background: #e73edf;
+    color: white;
+  }
+  .fa-whatsapp{
+    background: #25e64f;
+    color: white;
+  }
+  .fa-youtube{
+    background: #e62525;
+    color: white;
+  }
+
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+  }
+  .line{
+      width: 33px;
+      background-color: white;
+      height: 4px;
+      margin: 3px 3px;
+  }
+
+
+
