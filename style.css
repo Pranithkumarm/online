@@ -59,7 +59,7 @@ html{
     border-radius: 3px;
 }
 .background{
-    background:url('/img/snap (9).jpg');
+    background:rgb(0, 0, 0,0.7) url('img/snap (9).jpg');;
     background-size: cover;
     background-blend-mode:darken;
 }
@@ -152,9 +152,9 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
     font-size: 25px;
     padding: 30px;
     height: 80vh;
-    background:url('/img/snap (1).jpg');
+    background:rgb(0, 0, 0,0.7) url('img/snap (1).jpg');
     background-size: cover;
-    background-blend-mode:darken;
+    /*background-blend-mode:darken;*/
 }
 .text-center{
     text-align: center;
